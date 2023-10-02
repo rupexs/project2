@@ -1,3 +1,9 @@
+trigger:
+  - master:
+
+pool:
+  VmIages: 'Ubuntu-latest' 
+
 apiVersion: v1
 kind: Deployment
 metadata:
